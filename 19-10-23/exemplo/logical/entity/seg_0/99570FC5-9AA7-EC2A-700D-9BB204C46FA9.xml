@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99570FC5-9AA7-EC2A-700D-9BB204C46FA9" name="T_MEDICO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-19 12:08:38 UTC</createdTime>
+<ownerDesignName>exemplo</ownerDesignName>
+<engineerTo>
+<item key="B2D72284-D97B-9DD9-784D-69A28EB508D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_funcionario" id="DF492E3D-CA58-06FE-B696-6C398BC64399">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-19 12:25:49 UTC</createdTime>
+<generatorID>56171DC1-6DAF-46B0-5DBB-7975A5327C3D</generatorID>
+<ownerDesignName>exemplo</ownerDesignName>
+<engineerTo>
+<item key="B2D72284-D97B-9DD9-784D-69A28EB508D8" value="true"/>
+</engineerTo>
+<referedAttribute>A0111CEB-16A3-433B-DBEF-AE6C9C08FE80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F44A26F9-9CD3-3BB6-0888-237824C9DE20" name="T_MEDICO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-19 12:23:09 UTC</createdTime>
+<ownerDesignName>exemplo</ownerDesignName>
+<engineerTo>
+<item key="B2D72284-D97B-9DD9-784D-69A28EB508D8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>
